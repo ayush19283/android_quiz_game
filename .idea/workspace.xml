@@ -24,6 +24,14 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="27JlugjOy1FHt0vvDrGl1cQIYQR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,8 +42,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\res\drawable" />
+      <recent name="C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\res" />
+    </key>
+    <key name="android.template.910789331">
+      <recent name="com.example.quiz_app" />
+    </key>
     <key name="android.template.-355077992">
       <recent name="com.example.quiz_app" />
     </key>

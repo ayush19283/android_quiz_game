@@ -2437,6 +2437,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg2
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2479,6 +2480,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable mind_game_bg
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -2593,6 +2595,8 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id bar
+id bar1
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2693,6 +2697,7 @@ id fill_horizontal
 id fill_vertical
 id filled
 id first
+id firstone
 id fitToContents
 id fixed
 id flip
@@ -2744,6 +2749,8 @@ id line3
 id linear
 id listMode
 id list_item
+id lone
+id ltwo
 id masked
 id match_constraint
 id match_parent
@@ -2836,11 +2843,13 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id play
 id position
 id postLayout
 id progress_circular
 id progress_horizontal
 id question
+id questionone
 id radio
 id ratio
 id rectangles
@@ -2855,6 +2864,8 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
+id scor
+id score
 id screen
 id scroll
 id scrollIndicatorDown
@@ -2872,6 +2883,7 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id second
+id secondone
 id select_dialog_listview
 id selected
 id selection_type
@@ -2948,6 +2960,7 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id third
+id thirdone
 id time
 id title
 id titleDividerNoCustom
@@ -3071,8 +3084,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_home_page
 layout activity_main
 layout activity_main2
+layout activity_stage2
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

@@ -11,7 +11,7 @@
 9-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:5:5-24:19
+11-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:5:5-32:19
 12        android:allowBackup="true"
 12-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -28,50 +28,63 @@
 19        android:theme="@style/Theme.Quiz_app" >
 19-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:11:9-46
 20        <activity
-20-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:12:9-14:39
-21            android:name="com.example.quiz_app.MainActivity2"
-21-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:13:13-42
-22            android:exported="true" />
+20-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:12:9-20:20
+21            android:name="com.example.quiz_app.HomePage"
+21-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:13:13-37
+22            android:exported="true" >
 22-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:14:13-36
-23        <activity
-23-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:15:9-23:20
-24            android:name="com.example.quiz_app.MainActivity"
-24-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:16:13-41
-25            android:exported="true" >
-25-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:17:13-36
-26            <intent-filter>
-26-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:18:13-22:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:19:17-69
-27-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:19:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:21:17-77
-29-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:21:27-74
-30            </intent-filter>
-31        </activity>
-32
-33        <provider
-33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ayush\.gradle\caches\transforms-3\11fb816a4e3bfeb40058fb5abc43cd63\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-34            android:name="androidx.startup.InitializationProvider"
-34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ayush\.gradle\caches\transforms-3\11fb816a4e3bfeb40058fb5abc43cd63\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-35            android:authorities="com.example.quiz_app.androidx-startup"
-35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ayush\.gradle\caches\transforms-3\11fb816a4e3bfeb40058fb5abc43cd63\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-36            android:exported="false" >
-36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ayush\.gradle\caches\transforms-3\11fb816a4e3bfeb40058fb5abc43cd63\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-37            <meta-data
-37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ayush\.gradle\caches\transforms-3\11fb816a4e3bfeb40058fb5abc43cd63\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-38                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ayush\.gradle\caches\transforms-3\11fb816a4e3bfeb40058fb5abc43cd63\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-39                android:value="androidx.startup" />
-39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ayush\.gradle\caches\transforms-3\11fb816a4e3bfeb40058fb5abc43cd63\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-40            <meta-data
-40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ayush\.gradle\caches\transforms-3\a57367fa68bff98ef6d35bb9f0514757\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-41                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-41-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ayush\.gradle\caches\transforms-3\a57367fa68bff98ef6d35bb9f0514757\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-42                android:value="androidx.startup" />
-42-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ayush\.gradle\caches\transforms-3\a57367fa68bff98ef6d35bb9f0514757\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-43        </provider>
-44    </application>
-45
-46</manifest>
+23            <intent-filter>
+23-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:15:9-19:25
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:16:13-65
+24-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:16:21-62
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:18:13-73
+26-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:18:23-70
+27            </intent-filter>
+28        </activity>
+29        <activity
+29-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:21:9-23:39
+30            android:name="com.example.quiz_app.stage2"
+30-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:22:13-35
+31            android:exported="true" />
+31-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:23:13-36
+32        <activity
+32-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:24:9-26:39
+33            android:name="com.example.quiz_app.MainActivity2"
+33-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:25:13-42
+34            android:exported="true" />
+34-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:26:13-36
+35        <activity
+35-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:27:9-31:20
+36            android:name="com.example.quiz_app.MainActivity"
+36-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:28:13-41
+37            android:exported="true" >
+37-->C:\Users\ayush\AndroidStudioProjects\quiz_app\app\src\main\AndroidManifest.xml:29:13-36
+38        </activity>
+39
+40        <provider
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ayush\.gradle\caches\transforms-3\11fb816a4e3bfeb40058fb5abc43cd63\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+41            android:name="androidx.startup.InitializationProvider"
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ayush\.gradle\caches\transforms-3\11fb816a4e3bfeb40058fb5abc43cd63\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+42            android:authorities="com.example.quiz_app.androidx-startup"
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ayush\.gradle\caches\transforms-3\11fb816a4e3bfeb40058fb5abc43cd63\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+43            android:exported="false" >
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ayush\.gradle\caches\transforms-3\11fb816a4e3bfeb40058fb5abc43cd63\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+44            <meta-data
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ayush\.gradle\caches\transforms-3\11fb816a4e3bfeb40058fb5abc43cd63\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ayush\.gradle\caches\transforms-3\11fb816a4e3bfeb40058fb5abc43cd63\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+46                android:value="androidx.startup" />
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ayush\.gradle\caches\transforms-3\11fb816a4e3bfeb40058fb5abc43cd63\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+47            <meta-data
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ayush\.gradle\caches\transforms-3\a57367fa68bff98ef6d35bb9f0514757\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ayush\.gradle\caches\transforms-3\a57367fa68bff98ef6d35bb9f0514757\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+49                android:value="androidx.startup" />
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ayush\.gradle\caches\transforms-3\a57367fa68bff98ef6d35bb9f0514757\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+50        </provider>
+51    </application>
+52
+53</manifest>
