@@ -4,4 +4,4 @@
  App contains two levels Easy and Hard\
  Countdown timer\
  Progress Bar\
- Show score\
+ Displays score
